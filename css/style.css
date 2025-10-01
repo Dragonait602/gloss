@@ -265,7 +265,18 @@ button {
   display: -webkit-flex;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
+}
+.header__other__date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 125%;
+}
+.header__other__phone {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 125%;
 }
 .header__other__icons {
   display: -webkit-box;
@@ -274,6 +285,7 @@ button {
   display: -webkit-flex;
   display: flex;
   gap: 10px;
+  margin: 0 40px 0 0;
 }
 .header__other__icons a {
   display: block;
@@ -381,6 +393,39 @@ button {
   font-size: 14px;
   line-height: 125%;
   margin-bottom: 16px;
+}
+
+.test {
+  padding: 128px;
+}
+.test__title {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.test__title h2 {
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 110%;
+  color: #333333;
+}
+.test__title p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #333333;
+}
+.test__card__text {
+  font-size: 24px;
+  font-weight: 400;
+}
+.test__card__text span {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
